@@ -1,7 +1,7 @@
 .judul {
   font-family: 'Raleway', sans-serif;
   font-size: 100px;
-  color: White;
+  color: #3498db;
   text-align: center;
   vertical-align: center;
 }
@@ -11,32 +11,16 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-body {
-background: -webkit-linear-gradient(270deg, #dd224a, #467ac3);
-background-size: 400% 400%;
-
--webkit-animation: Gradient 30s ease infinite;
--moz-animation: Gradient 30s ease infinite;
--o-animation: Gradient 30s ease infinite;
-animation: Gradient 30s ease infinite;
+body{
+  background-color: #e74c3c;
 }
-@-webkit-keyframes Gradient {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+.kecil{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  vertical-align: center;
 }
-@-moz-keyframes Gradient {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-o-keyframes Gradient {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes Gradient {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+.text{
+  padding-top: 0px
 }
